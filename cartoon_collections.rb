@@ -8,9 +8,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
 small_calls = planeteer_calls.map {|element| element.replace(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
-  
-
 end
+planeteer_calls
 end
 
 def long_planeteer_calls(planeteer_calls)
