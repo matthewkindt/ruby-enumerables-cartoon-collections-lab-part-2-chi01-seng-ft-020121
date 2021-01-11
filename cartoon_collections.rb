@@ -7,7 +7,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-small_calls = planeteer_calls.map {|element| element.replace({})
+small_calls = planeteer_calls.map {|element| element.replace(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
   
 
 end
