@@ -10,7 +10,6 @@ def summon_captain_planet(planeteer_calls)
 small_calls = planeteer_calls.map {|item| item.replace(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
 end
 end
-end
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
