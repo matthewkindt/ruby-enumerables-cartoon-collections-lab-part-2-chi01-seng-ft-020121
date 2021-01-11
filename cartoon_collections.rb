@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
 small_calls.map do |element|
-  
+  element.each
   
 
 end
